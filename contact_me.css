@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap');
+
+html, body{
+margin: 0;
+padding: 0;
+}
+
+body{
+	background-color: #0f0e0e;
+}
+#container{
+	height: 1500px;
+	width: 96%;
+	margin: auto;
+	background-color: #eeeeee;
+}
+.container1{
+	width : 100%;
+	height: 100px;
+	margin: auto;
+	background-color: #0f0e0e;
+	display: flex;
+}
+.container1 img{
+	height: 70px;
+	margin: 15px 0px 15px 230px; 
+}
+header nav{
+	float: right;
+	width: 75%;
+	height: 65px;
+}
+header nav ul{
+	list-style-type: none;
+	float: right;
+	
+}
+header nav ul li{
+	display: inline-block;
+}
+header nav ul li a{
+	display: block;
+	text-decoration: none;
+	color: #1ac1b9;
+	font-family: 'Bitter', serif;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 25px 20px;
+
+}
+
+/* ****** Cover image ****** */
+
+
+#container .my_self,.contact{
+	height: 130px;
+	width: 100%;
+
+}
+#container .my_self h1,.contact h1{
+	padding-top: 30px;
+	text-align: center;
+	font-size: 40px;
+	color: #b00231;
+	font-family: 'Baloo Bhaina 2', cursive;
+}
+.my_detail h2,p{
+	font-family: 'Bitter', serif;
+	text-align: center;
+}
+
+.s1{
+	width: 100%;
+	height: 400px;
+	background-color: #edfffe;
+	display: flex;
+
+}
+
+
+.s1 .my_image{
+	width: 300px;
+	height: 300px;
+	margin : 60px 120px;
+	border-radius: 100%;
+}
+.me{
+	background: url('img/4_i4.jpg') no-repeat center /cover;
+}
+.hobby{
+	background: url('img/5_hobby.jpg') no-repeat center /cover;
+}
+.family{
+	background: url('img/5_family.jpg') no-repeat center /cover;
+}
+.s1 .my_detail{
+	width:800px;
+	height: 200px; 
+	margin-top: 88px;
+}
+.my_detail h2{
+	
+	color: #04a29b;
+}
+.info{
+	height: 600px;
+	width: 1000px;
+	margin: 0px 220px;
+	border: 5px solid #04a29b;
+	border-radius: 20px;
+	display: flex;
+	background-color: #edfffe;
+}
+.details,.f{
+	height: 400px;
+	width: 400px;
+	margin: auto;
+}
+.details .m{
+	height: 50px;
+	width: 300px;
+	margin: 30px 10px;
+	display: flex;
+}
+input,textarea{
+	height: 30px;
+	width: 350px;
+	margin-bottom: 30px;
+	padding: 3px 5px;
+	border: 1px solid gray;
+
+}
+textarea{
+	height: 90px;
+}
+.i1,.i2,.i3,.i4{
+	height: 50px;
+	width: 50px;
+	border-radius: 10px;
+}
+.i1:hover,.i2:hover,.i3:hover,.i4:hover{
+	border: 3px solid white;
+}
+.i1{
+	background: url('img/5_facebook.png') no-repeat center /cover;
+}
+.i2{
+	background: url('img/5_instagram.png') no-repeat center /cover;
+}
+.i3{
+	background: url('img/5_linkedin.png') no-repeat center /cover;
+}
+.i4{
+	background: url('img/5_pinterest.png') no-repeat center /cover;
+}
+.m p{
+	padding-left: 5px;
+}
+.message{
+	width: 100px;
+	background-color: #026db7;
+	color: white;
+}
+.message:hover{
+	background-color: #145683;
+}
+
+/******** footer ******/
+.footer{
+	height: 75px;
+	background-color: #0f0e0e;
+}
+.footer p{
+	padding-top:25px;
+	text-align: center;
+	color: #989798;
+	font-family: 'Bitter', serif;
+}
+.blue{
+	background :none;
+	font-weight: bold;
+	color: #026db7;
+}

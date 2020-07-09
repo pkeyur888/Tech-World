@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap');
+
+html, body{
+margin: 0;
+padding: 0;
+}
+
+body{
+	background-color: #0f0e0e;
+}
+
+/***********Main container************/
+#container{
+	height: 2168px;
+	width: 96%;
+	margin: auto;
+	background-color: white;
+}
+.container1{
+	width : 100%;
+	height: 100px;
+	margin: auto;
+	background-color: #0f0e0e;
+	display: flex;
+}
+.container1 img{
+	height: 70px;
+	margin: 15px 0px 15px 230px; 
+}
+header nav{
+	float: right;
+	width: 75%;
+	height: 65px;
+}
+header nav ul{
+	list-style-type: none;
+	float: right;
+	
+}
+header nav ul li{
+	display: inline-block;
+}
+header nav ul li a{
+	display: block;
+	text-decoration: none;
+	color: #1ac1b9;
+	font-family: 'Bitter', serif;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 25px 20px;
+}
+header nav ul li a:hover{
+	color: #d8cece;
+}
+
+/************ cover image *************/
+#container .cover_img{
+	height: 600px;
+	width: 100%;
+
+	background : url('img/1_coverpic.jpg') no-repeat center /cover;
+}
+
+/*********** details ************/
+#container .quote{
+	height: 130px;
+	width: 100%;
+}
+#container .quote h1{
+	padding-top: 30px;
+	text-align: center;
+	font-size: 40px;
+	color: #FBA100;
+	font-family: 'Baloo Bhaina 2', cursive;
+}
+#container .technology{
+	height: 580px;
+	background-color: #e6e6e6;
+}
+#container .technology .t1,.t2,.t3{
+	height: 500px;
+	width: 400px;
+	border: none;
+	float: left;
+	display: inline-block;
+	margin: 35px 20px ;
+	padding: 0px;
+}
+#container .technology .t1{
+	margin-left: 85px;
+}
+
+.t1 h1,.t3 h1,.t2 h1{
+	text-align: center;
+	margin: 0px 10px 40px 10px;
+	color: #1ac1b9;
+	font-weight: bold;
+	font-family: 'Lora', serif;
+}
+div.t1 p,.t3 p,.t2 p{
+	text-align: center;
+	font-size: 18px;
+	margin: 10px 5px 53px 5px;
+	font-family: 'Lora', serif;
+
+}
+
+.half{
+	height: 250px;
+	width: 400px;
+	border: none;
+}
+.tv{
+	background: url('img/1_QLED_home1.png') no-repeat center /cover;
+	background-color: black;
+}
+.bulb{
+	background: url('img/1_bulb_home.webp') no-repeat center /cover;
+}
+.airpod{
+	background: url('img/1_airpod_home.jpg') no-repeat center /cover;
+}
+
+/*********** my details ************/
+#container .about_me{
+	height: 130px;
+	width: 100%;
+}
+
+
+#container .about_me h1{
+	padding-top: 30px;
+	text-align: center;
+	font-size: 40px;
+	color: #FBA100;
+	font-family: 'Baloo Bhaina 2', cursive;
+}
+.something{
+	height: 500px;
+	width: 100%;
+	display: flex;
+	/* background: url('img/4_i4.jpg') no-repeat top /cover;  */
+	margin-bottom: 0px;
+
+}
+.detail{
+	height: 300px;
+	width: 600px;
+	margin: 80px 50px;
+	
+}
+.detail p{
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Lobster', cursive;
+}
+.detail a{
+	margin: 5px 260px;
+	padding: 5px 10px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	background-color: #635c60;
+	width: 100px;
+}
+.blue{
+	background :none;
+	font-weight: bold;
+	color: #026db7;
+}
+
+/************ Footer **********/
+.footer{
+	height: 75px;
+	background-color: #464646;
+}
+.footer p{
+	padding-top:25px;
+	text-align: center;
+	color: #989798;
+	font-family: 'Bitter', serif;
+}
+
+

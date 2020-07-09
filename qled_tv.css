@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap');
+
+html, body{
+margin: 0;
+padding: 0;
+}
+
+body{
+	background-color: #0f0e0e;
+}
+
+/***********Main container************/
+#container{
+	height: 2290px;
+	width: 96%;
+	margin: auto;
+	background-color: #e7eeff;
+}
+.container1{
+	width : 100%;
+	height: 100px;
+	margin: auto;
+	background-color: #0f0e0e;
+	display: flex;
+}
+.container1 img{
+	height: 70px;
+	margin: 15px 0px 15px 230px; 
+}
+header nav{
+	float: right;
+	width: 75%;
+	height: 65px;
+}
+header nav ul{
+	list-style-type: none;
+	float: right;
+	
+}
+header nav ul li{
+	display: inline-block;
+}
+header nav ul li a{
+	display: block;
+	text-decoration: none;
+	color: #1ac1b9;
+	font-family: 'Bitter', serif;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 25px 20px;
+
+}
+
+/************ cover image *************/
+#container .cover_img{
+	height: 550px;
+	width: 100%;
+	background : url('img/3_coverpic.gif') no-repeat center /cover;
+}
+
+/*********** details ************/
+#container .quote{
+	height: 130px;
+	width: 100%;
+	background-color: #e7eeff;
+}
+#container .quote h1{
+	padding-top: 30px;
+	text-align: center;
+	font-size: 40px;
+	color: #11487f;
+	font-family: 'Baloo Bhaina 2', cursive;
+}
+
+/* ********** details ********* */
+
+.detail{
+	height: 900px;
+	width: 100%;
+	background-color: #e7eeff;
+
+}
+.r1,.r2,.r3{
+	height: 298px;
+	width: 100%;
+	background-color: #e7eeff;
+	margin-bottom: 3px;
+	display: flex;
+}
+.i1,.i2,.i3{
+	height: 298px;
+	width: 33%;
+}
+.i1{
+	background : url('img/3_i1.webp') no-repeat center /cover;
+}
+.i2{
+	margin-left: 33.5%;
+	background : url('img/3_i2.jpg') no-repeat top /cover;
+}
+.i3{
+	background : url('img/3_i3.jpg') no-repeat center /cover;
+}
+.d1,.d2{
+	height: 298px;
+	width: 60%;
+	background-color: #d3e0ff;
+}
+.d1{
+	border-left: none;
+}
+.d2{
+	margin-left: 7%;
+	border-right: none;
+}
+.d1 ul,.d2 ul{
+	margin: 0px;
+	padding: 45px 20px;
+	font-size: 20px;
+	text-align: center;
+	list-style: none;
+}
+
+.video{
+	margin: 20px auto;
+	height: 450;
+	width: 60%;
+	border: 3px solid #000099;
+	padding: 5px;
+}
+iframe{
+	height: 450px;
+	width: 100%;
+}
+
+/******** footer ******/
+.footer{
+	height: 75px;
+	background-color: #0f0e0e;
+}
+.footer p{
+	padding-top:25px;
+	text-align: center;
+	color: #989798;
+	font-family: 'Bitter', serif;
+}
+.blue{
+	background :none;
+	font-weight: bold;
+	color: #026db7;
+}
